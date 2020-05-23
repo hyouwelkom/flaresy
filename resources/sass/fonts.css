@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url('/fonts/CaviarDreams.ttf');
+}
+
+@font-face {
+    font-family: "Caviar Dreams Bold";
+    src: url('/fonts/CaviarDreams_Bold.ttf');
+}
+
+@font-face {
+    font-family: "Caviar Dreams Bold Italic";
+    src: url('/fonts/CaviarDreams_BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: "Caviar Dreams Italic";
+    src: url('/fonts/CaviarDreams_Italic.ttf');
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('/fonts/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Source Sans Pro Bold";
+    src: url('/fonts/SourceSansPro-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Source Sans Pro Semi Bold";
+    src: url('/fonts/SourceSansPro-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('/fonts/SourceSansPro-Regular.ttf');
+}

@@ -1,0 +1,92 @@
+#categories {
+    text-align: center;
+}
+
+.production {
+    width: 25%;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.production img {
+    object-fit: cover;
+    width:100%;
+    transition: transform .4s, filter .4s;
+}
+
+.production:hover img {
+    transform: scale(1.3);
+    filter: brightness(50%);
+}
+
+.production:hover div {
+    opacity: 1.0;
+}
+
+.prod-plus {
+    font-size: 6rem;
+    font-family: "Caviar Dreams Bold";
+    color: #b3124a;
+}
+
+.container-plus {
+    opacity: 0.0;
+    transition: all 400ms ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.production-prod {
+    width: 50%;
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+
+.production-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    background: linear-gradient(to top, rgba(179, 20, 75, 0.5) 50%, rgba(0, 0, 0, 0) 50%);
+    background-size: 100% 200%;
+    background-position: left top;
+    transition:all 0.2s ease-in-out;
+
+}
+
+.production-prod-img-container {
+    position: relative;
+}
+
+.production-prod:hover .production-layer {
+    background-position: left bottom;
+}
+
+.production-prod img {
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
+    width:100%;
+}
+
+.production-prod-txt {
+    position: absolute;
+    right: 40px;
+    bottom: 230px;
+    transition: .2s;
+    transform: translateY(100px);
+    font-family: "Caviar Dreams Bold";
+    font-size: 3em;
+    color: white;
+}
+
+.production-prod:hover .production-prod-txt {
+    transform: translateY(0);
+}

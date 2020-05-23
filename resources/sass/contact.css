@@ -1,0 +1,140 @@
+#contact {
+    width: 73%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact-form {
+    width: 73%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-icon-container {
+    background-color: #b3124a;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#contact-icons {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+
+.contact-icon {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-title {
+    font-family: "Caviar Dreams Bold";
+    font-size: 1.25em;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.form-control::placeholder {
+    font-family: "Caviar Dreams Bold";
+}
+
+.btn-flaresy-contact {
+    background-color: #df2d43;
+    font-family: "Source Sans Pro Semi Bold";
+    color: white;
+    padding: 0.75rem 2.25rem;
+    font-size: 1.3rem;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+.popup-bubble {
+    /* Position the bubble centred-above its parent. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -100%);
+    /* Style the bubble. */
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    overflow-y: auto;
+    max-height: 60px;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+}
+/* The parent of the bubble. A zero-height div at the top of the tip. */
+.popup-bubble-anchor {
+    /* Position the div a fixed distance above the tip. */
+    position: absolute;
+    width: 100%;
+    bottom: /* TIP_HEIGHT= */ 8px;
+    left: 0;
+}
+/* This element draws the tip. */
+.popup-bubble-anchor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Center the tip horizontally. */
+    transform: translate(-50%, 0);
+    /* The tip is a https://css-tricks.com/snippets/css/css-triangle/ */
+    width: 0;
+    height: 0;
+    /* The tip is 8px high, and 12px wide. */
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: /* TIP_HEIGHT= */ 8px solid white;
+}
+/* JavaScript will position this div at the bottom of the popup tip. */
+.popup-container {
+    cursor: auto;
+    height: 0;
+    position: absolute;
+    /* The max width of the info window. */
+    width: 200px;
+}
+
+
+
+
+#fiche-contact {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fiche-contact-bg {
+    background-color: #b3124a;
+}
+
+.fiche-txt {
+    color: white;
+    text-align: left;
+    font-family: "Caviar Dreams Bold";
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

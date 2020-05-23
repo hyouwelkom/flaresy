@@ -1,0 +1,172 @@
+.logo {
+    height: 70px;
+    width: auto;
+}
+
+nav {
+    font-family: "Caviar Dreams Bold";
+    font-size: 15pt;
+    box-shadow: 0px 1px 20px 0px black;
+}
+
+.nav-item.active a {
+    color: white;
+}
+
+.nav-item.active {
+    background-color: #b3124a;
+}
+
+.nav-item:not(.active) a {
+    color:black;
+    transition: color 250ms;
+}
+
+.nav-item:not(.active) {
+    transition: background-color 250ms;
+}
+
+.nav-item:not(.active):hover a {
+    color:white;
+}
+
+.nav-item:not(.active):hover {
+    background-color: #b3124a;
+}
+
+.nav-item {
+    height: 140px;
+    width: 170px;
+}
+
+.nav-link, .navbar-brand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    padding: 0;
+    background-color: white;
+}
+
+.nav-item-brand {
+    width: 42%;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+#content {
+    margin-top: 140px;
+}
+
+.flaresy-title {
+    color: rgb(56, 184, 189);
+    font-family: "Caviar Dreams Bold";
+}
+
+.section {
+    text-align: center;
+}
+
+.custom-underlines {
+    display: flex;
+    width: 100%;
+    height: 8px;
+    margin: 10px 0px 25px 0px;
+    justify-content: center;
+}
+
+.line {
+    height: 1px;
+    background-color: black;
+    width: 50px;
+    margin-top: 4px;
+}
+
+.box {
+    height: 5px;
+    background-color: black;
+    width: 50px;
+}
+
+.flaresy-undertitle {
+    text-transform: uppercase;
+    font-family: "Source Sans Pro Semi Bold";
+    text-align: center;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    color: rgb(100, 100, 100);
+}
+
+.flaresy-larger-undertitle {
+    font-family: "Source Sans Pro";
+    text-align: center;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    color: rgb(100, 100, 100);
+}
+
+.bg-gray {
+    background-color: rgb(243, 243, 243);
+}
+
+.btn-flaresy {
+    background-color: #38B8BD;
+    border-color: #38B8BD;
+    font-family: "Source Sans Pro Bold";
+    color: white;
+    padding: 0.75rem 2.70rem;
+    font-size: 1.3rem;
+}
+
+.btn-flaresy-bis {
+    background-color: #ffffff;
+    border-color: rgb(215, 215, 215);
+    font-family: "Source Sans Pro Semi Bold";
+    color: black;
+    padding: 0.65rem 1.1rem;
+    font-size: 1rem;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-flaresy-bis:hover, .btn-flaresy-bis.active {
+    background-color: #b3124a;
+    color: white;
+}
+
+.btn-flaresy-rose {
+    background-color: #b3124a;
+    border-color: #b3124a;
+    font-family: "Caviar Dreams Bold";
+    color: white;
+    padding: 0.75rem 2rem;
+    font-size: 1.3rem;
+}
+
+#copyright {
+    height: 120px;
+    background-color: #38b7be;
+    font-family: "Caviar Dreams Bold";
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright-container {
+    width: 80%;
+}
+
+.reseau-icon {
+    float: right;
+    margin-left: 10px;
+}
