@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'GlobalController@index');
-Route::get('/nos-prods', 'GlobalController@nosProds');
 Route::get('/nos-services', 'GlobalController@nosServices');
+Route::get('/nos-prods', 'GlobalController@nosProds');
+Route::get('/l-equipe', 'GlobalController@lequipe');
 Route::get('/contact', 'GlobalController@contact');

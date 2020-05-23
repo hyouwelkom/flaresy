@@ -25,6 +25,12 @@ class GlobalController extends Controller
         ]);
     }
 
+    public function lequipe() {
+        return view('l-equipe', [
+            'id_page' => 3
+        ]);
+    }
+
     public function contact() {
         return view('contact', [
             'id_page' => 4
