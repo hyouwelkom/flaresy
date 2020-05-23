@@ -28,7 +28,7 @@
                         <br>
                         <p><i class="fas fa-phone-alt text-white ml-4 mr-lg-3"></i> TÉLÉPHONE : +33 6 28 22 44 71</p>
                         <br>
-                        <p><i class="fas fa-envelope text-white ml-4 mr-lg-3"></i> EMAIL : +33 6 28 22 44 71</p>
+                        <p><i class="fas fa-envelope text-white ml-4 mr-lg-3"></i> EMAIL : contact@flaresy.fr</p>
                         <br>
                         <div id="reseaux-icons" class="bottom-right">
                             <a class="link-reseau reseau-icon border-0" href="#" type="button"><i class="fab fa-2x fa-facebook-f icon-reseau" aria-hidden="true"></i></a>
