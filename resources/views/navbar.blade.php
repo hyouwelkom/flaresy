@@ -4,12 +4,15 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto ml-lg-5">
             <li class="nav-item-brand">
                 <a class="navbar-brand" href="/">
                     <img class="logo" src="{{ asset('storage/photos/logo.png') }}" alt="Logo Flaresy agence audiovisuelle">
                 </a>
             </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto small-menu-text justify-content-end mr-lg-5">
             <li class="nav-item @if($id_page == 1) active @endif">
                 <a class="nav-link" href="/nos-services">NOS SERVICES</a>
             </li>

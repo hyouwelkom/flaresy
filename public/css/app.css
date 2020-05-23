@@ -10920,7 +10920,6 @@ nav {
 
 .nav-item {
   height: 70px;
-  width: 170px;
 }
 
 .nav-link,
@@ -11055,6 +11054,10 @@ nav {
 .reseau-icon {
   float: right;
   margin-left: 10px;
+}
+
+.small-menu-text {
+  font-size: 0.8em;
 }
 
 .slider-img {
