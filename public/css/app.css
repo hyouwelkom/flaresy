@@ -10883,7 +10883,7 @@ a.text-dark:focus {
 }
 
 .logo {
-  height: 70px;
+  height: 60px;
   width: auto;
 }
 
@@ -10919,7 +10919,7 @@ nav {
 }
 
 .nav-item {
-  height: 100px;
+  height: 70px;
   width: 170px;
 }
 
@@ -10945,7 +10945,7 @@ nav {
 }
 
 #content {
-  margin-top: 140px;
+  margin-top: 70px;
 }
 
 .flaresy-title {

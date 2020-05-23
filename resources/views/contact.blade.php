@@ -24,7 +24,8 @@
                     </div>
                     <br>
                     <div class="fiche-txt">
-                        <p><i class="fas fa-map-marker-alt text-white ml-4 mr-lg-3"></i> ADRESSE : 70 Avenue Roger Devoucoux, 83000 Toulon</p>
+                        <p><i class="fas fa-map-marker-alt text-white ml-4 mr-lg-3"></i> ADRESSE : 70 Avenue Roger Devoucoux<br>
+                            83000 -  Toulon</p>
                         <br>
                         <p><i class="fas fa-phone-alt text-white ml-4 mr-lg-3"></i> TÉLÉPHONE : +33 6 28 22 44 71</p>
                         <br>
