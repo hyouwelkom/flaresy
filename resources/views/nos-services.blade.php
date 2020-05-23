@@ -20,7 +20,7 @@
         <div id="services-boxes">
 
             <div class="service-box">
-                <img src="{{ asset('storage/photos/nos-services/spots.svg') }}" class="service-box-img pb-3">
+                <img src="{{ asset('storage/photos/nos-services/films.svg') }}" class="service-box-img pb-3">
                 <h2 class="pb-3">FILMS</h2>
                 <p>Films de communication interne ou externe d'une société, association, institution ou d'un groupe.</p>
             </div>
@@ -50,7 +50,7 @@
             </div>
 
             <div class="service-box">
-                <img src="{{ asset('storage/photos/nos-services/spots.svg') }}" class="service-box-img pb-3">
+                <img src="{{ asset('storage/photos/nos-services/drone.svg') }}" class="service-box-img pb-3">
                 <h2 class="pb-3">VIDÉOS DRONES / 360°</h2>
                 <p>Vidéos aériennes par drone. Filmer du ciel est le moyel idéal pour mettre en valeur tous types de sujets ou d'évènements. Un drone équipé d'une caméra pour réaliser des vidéos aériennes permettant de présenter d'une façon novatrice une ville, un village, un monument ou un paysage.</p>
             </div>
