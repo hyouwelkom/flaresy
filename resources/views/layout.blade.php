@@ -19,7 +19,7 @@
 
     <div id="copyright">
         <div class="row" id="copyright-container">
-            <div class="col">
+            <div class="col-8">
                 © Copyright 2020 | Tous droits réservés - Mentions légales | Un site Flaresy.
             </div>
 

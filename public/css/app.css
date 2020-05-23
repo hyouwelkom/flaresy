@@ -10919,7 +10919,7 @@ nav {
 }
 
 .nav-item {
-  height: 140px;
+  height: 100px;
   width: 170px;
 }
 
@@ -11152,6 +11152,8 @@ nav {
 
 .service-txt {
   color: rgb(215, 215, 215);
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .img-service {
@@ -11174,8 +11176,8 @@ nav {
 }
 
 #services {
-  margin-right: 12%;
-  margin-left: 12%;
+  margin-right: 5%;
+  margin-left: 5%;
   overflow: hidden;
   padding: 1%;
   text-align: center;
@@ -11228,7 +11230,6 @@ nav {
 
 .production {
   width: 25%;
-  height: 300px;
   float: left;
   overflow: hidden;
   position: relative;
@@ -11337,7 +11338,7 @@ nav {
 }
 
 .txt-membre {
-  height: 15%;
+  height: 18%;
   width: 100%;
   background: linear-gradient(to top, #b3124a 50%, #646464 50%);
   background-size: 100% 200%;
@@ -11363,6 +11364,7 @@ nav {
 
 .img-container-membre {
   position: relative;
+  height: 100%;
 }
 
 .reseaux {
@@ -11462,7 +11464,6 @@ nav {
 }
 
 #contact-icons {
-  width: 70%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;

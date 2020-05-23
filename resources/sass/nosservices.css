@@ -21,6 +21,8 @@
 
 .service-txt {
     color: rgb(215, 215, 215);
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .img-service {
@@ -42,8 +44,8 @@
 }
 
 #services {
-    margin-right: 12%;
-    margin-left: 12%;
+    margin-right: 5%;
+    margin-left: 5%;
     overflow: hidden;
     padding: 1%;
     text-align: center;
