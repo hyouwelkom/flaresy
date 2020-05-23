@@ -1,4 +1,4 @@
-<h2 class="flaresy-title">L'ÉQUIPE FLARESY</h2>
+<h2 class="flaresy-title">LA TEAM FLARESY</h2>
 
 <div class="custom-underlines">
     <div class="line"></div>

@@ -11416,6 +11416,28 @@ nav {
   margin-right: auto;
 }
 
+.larger-undertitle {
+  font-size: 2em;
+}
+
+#equipe-fiche {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.equipe-p {
+  color: rgb(100, 100, 100);
+}
+
+.teaser-txt {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #contact {
   width: 73%;
   margin-right: auto;
