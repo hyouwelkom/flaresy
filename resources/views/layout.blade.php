@@ -10,6 +10,7 @@
     <script src="{{ asset('js/nos-prods.js') }}"></script>
     <script src="{{ asset('js/new-user.js') }}"></script>
     <script src="{{ asset('js/isotope.pkgd.min.js') }}"></script>
+    <link rel="alternate" type="application/rss+xml" title="Flaresy Agency" href="http://flaresy.fr/rss.xml" />
 </head>
 <body>
 @include('navbar')
@@ -21,7 +22,7 @@
     <div id="copyright">
         <div class="row" id="copyright-container">
             <div class="col-8">
-                © Copyright 2020 | Tous droits réservés - Mentions légales | Un site Flaresy.
+                © Copyright 2020 | Tous droits réservés - <a href="/mentions-legales" style="color: #b3124a;">Mentions légales</a> - <a style="color: #b3124a;" href="{{ asset('storage/rss.xml') }}">Flux RSS</a> | Un site Flaresy.
             </div>
 
             <div class="col">
