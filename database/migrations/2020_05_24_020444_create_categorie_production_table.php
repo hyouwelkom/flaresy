@@ -15,10 +15,12 @@ class CreateCategorieProductionTable extends Migration
     {
         Schema::create('categorie_production', function (Blueprint $table) {
             $table->integer('production_id')->unsigned()->index();
-            $table->foreign('production_id')->references('id')->on('productions')->onDelete('cascade');
-
             $table->integer('categorie_id')->unsigned()->index();
-            $table->foreign('categorie_id')->references('id')->on('categories')->onDelete('cascade');
+        });
+
+        Schema::table('categorie_production', function (Blueprint $table) {
+            $table->foreign('production_id')->references('id')->on('productions');
+            $table->foreign('categorie_id')->references('id')->on('categories');
         });
     }
 
