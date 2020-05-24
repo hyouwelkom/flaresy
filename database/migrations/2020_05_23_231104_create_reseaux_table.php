@@ -14,7 +14,7 @@ class CreateReseauxTable extends Migration
     public function up()
     {
         Schema::create('reseaux', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->string('nom');
             $table->string('icon');
         });
