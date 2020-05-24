@@ -84,6 +84,11 @@ class GlobalController extends Controller
         }
     }
 
+    public function mentionsLegales()
+    {
+        return view('mentions-legales');
+    }
+
     public function addProjetToClient(Request $request)
     {
         $p = new Projet();

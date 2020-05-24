@@ -18,6 +18,7 @@ Route::get('/nos-services', 'GlobalController@nosServices');
 Route::get('/nos-prods', 'GlobalController@nosProds');
 Route::get('/l-equipe', 'GlobalController@lequipe');
 Route::get('/contact', 'GlobalController@contact');
+Route::get('/mentions-legales', 'GlobalController@mentionsLegales');
 Route::get('/administration', 'GlobalController@administration')->name('administration');
 Route::get('/gestion-de-projet', 'GlobalController@gestionDeProjet')->name('gestion-de-projet');
 Route::post('/new-user', 'GlobalController@createUser')->name('new-user');
