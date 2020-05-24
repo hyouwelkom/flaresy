@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 
 use App\Categorie;
 use App\Fichier;
+use App\Mail\Contact;
 use App\Niveau;
 use App\Production;
 use App\Projet;
@@ -14,6 +15,7 @@ use App\Service;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 
 class GlobalController extends Controller
@@ -89,8 +91,13 @@ class GlobalController extends Controller
         return view('mentions-legales');
     }
 
-    public function mailing()
+    public function mailing(Request $request)
     {
+        Mail::to('contact@flaresy.fr')
+            ->send(new Contact($request->input('name'), $request->input('email'), $request->input('tel'), $request->input('msg')));
+
+        return redirect()->back()->with('success','Message reçu avec succès !');
+
 
     }
 

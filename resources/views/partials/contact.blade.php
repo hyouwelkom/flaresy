@@ -1,3 +1,4 @@
+@include('flash-message')
 <h2 class="flaresy-title">ENTRONS EN RELATION</h2>
 
 <div class="custom-underlines">
@@ -58,7 +59,8 @@
 </div>
 
 
-<form id="contact-form-element">
+<form id="contact-form-element" method="POST" action="/mailing">
+    @csrf
     <div id="contact-form">
         <div class="row">
             <div class="col">

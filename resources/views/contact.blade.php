@@ -69,7 +69,7 @@
             <div class="line"></div>
         </div>
 
-        <form id="contact-form-element" class="pt-lg-5 pb-lg-5">
+        <form id="contact-form-element" method="POST" action="/mailing" class="pt-lg-5 pb-lg-5">
             <div id="contact-form">
                 <div class="row">
                     <div class="col">
