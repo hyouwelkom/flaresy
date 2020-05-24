@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/mailing', 'GlobalController@mailing');
+
 Route::get('/', 'GlobalController@index');
 Route::get('/nos-services', 'GlobalController@nosServices');
 Route::get('/nos-prods', 'GlobalController@nosProds');

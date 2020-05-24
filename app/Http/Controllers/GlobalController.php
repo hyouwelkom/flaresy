@@ -89,6 +89,11 @@ class GlobalController extends Controller
         return view('mentions-legales');
     }
 
+    public function mailing()
+    {
+
+    }
+
     public function addProjetToClient(Request $request)
     {
         $p = new Projet();
