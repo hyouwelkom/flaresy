@@ -70,6 +70,7 @@
         </div>
 
         <form id="contact-form-element" method="POST" action="/mailing" class="pt-lg-5 pb-lg-5">
+            @csrf
             <div id="contact-form">
                 <div class="row">
                     <div class="col">
