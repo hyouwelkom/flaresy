@@ -19,8 +19,8 @@ class CreateCategorieProductionTable extends Migration
         });
 
         Schema::table('categorie_production', function (Blueprint $table) {
-            $table->foreign('production_id')->references('id')->on('productions');
-            $table->foreign('categorie_id')->references('id')->on('categories');
+            $table->foreign('production_id')->references('id')->on('productions')->onDelete('cascade');
+            $table->foreign('categorie_id')->references('id')->on('categories')->onDelete('cascade');
         });
     }
 

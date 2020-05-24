@@ -20,8 +20,8 @@ class CreateReseauUserTable extends Migration
         });
 
         Schema::table('reseau_user', function (Blueprint $table) {
-            $table->foreign('user_id')->references('id')->on('users');
-            $table->foreign('reseau_id')->references('id')->on('reseaux');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('reseau_id')->references('id')->on('reseaux')->onDelete('cascade');
         });
     }
 
