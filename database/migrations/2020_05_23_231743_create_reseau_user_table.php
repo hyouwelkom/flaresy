@@ -14,13 +14,14 @@ class CreateReseauUserTable extends Migration
     public function up()
     {
         Schema::create('reseau_user', function (Blueprint $table) {
-            $table->increments('user_id')->unsigned()->index();
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-
-            $table->increments('reseau_id')->unsigned()->index();
-            $table->foreign('reseau_id')->references('id')->on('reseaux')->onDelete('cascade');
-
+            $table->integer('user_id')->unsigned()->index();
+            $table->integer('reseau_id')->unsigned()->index();
             $table->string('link');
+        });
+
+        Schema::table('reseau_user', function (Blueprint $table) {
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('reseau_id')->references('id')->on('reseaux')->onDelete('cascade');
         });
     }
 
