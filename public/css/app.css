@@ -11384,6 +11384,7 @@ nav {
 }
 
 .production-prod-div {
+  text-align: right;
   position: absolute;
   right: 40px;
   top: 50%;
