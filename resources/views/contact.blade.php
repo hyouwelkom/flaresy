@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="section pt-lg-5">
+        @include('flash-message')
 
         <div id="fiche-contact">
             <div class="row">
