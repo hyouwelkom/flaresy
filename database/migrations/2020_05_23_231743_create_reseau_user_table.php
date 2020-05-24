@@ -14,11 +14,10 @@ class CreateReseauUserTable extends Migration
     public function up()
     {
         Schema::create('reseau_user', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('user_id')->unsigned()->index();
+            $table->increments('user_id')->unsigned()->index();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
 
-            $table->integer('reseau_id')->unsigned()->index();
+            $table->increments('reseau_id')->unsigned()->index();
             $table->foreign('reseau_id')->references('id')->on('reseaux')->onDelete('cascade');
 
             $table->string('link');
