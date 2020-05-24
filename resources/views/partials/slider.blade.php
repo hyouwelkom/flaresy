@@ -16,11 +16,16 @@
         </div>
         <div class="carousel-caption">
             <h1 class="carousel-caption-title">BIENVENUE DANS NOTRE STUDIO</h1>
-            <span class="carousel-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum condimentum ligula, ac congue lorem euismod ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum mi diam, nec.</span>
-            <br><br><br>
-            <a class="btn btn-lg btn-flaresy" href="#">
-                LOREM IPSUM
-            </a>
+            <span class="carousel-caption-text">
+                Flaresy, agence audiovisuelle, est une agence SAS située à Toulon.
+                Elle a pour activité la création de films institutionnels, spots
+                publicitaires & événementiels, de l’animation 3D et du motion
+                design.
+                Aujourd’hui, la vidéo devient plus ludique et valorise davantage
+                l’activité sur la toile, elle devient l’outil indispensable pour
+                communiquer. Les vidéos augmentent le référencement naturel
+                sur les moteurs de recherche et doublent la visibilité sur internet.
+            </span>
         </div>
     </div>
 </div>

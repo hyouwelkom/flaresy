@@ -24,12 +24,33 @@
                     </div>
                     <br>
                     <div class="fiche-txt">
-                        <p><i class="fas fa-map-marker-alt text-white ml-4 mr-lg-3"></i> ADRESSE : 70 Avenue Roger Devoucoux<br>
-                            83000 -  Toulon</p>
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="fas fa-map-marker-alt text-white ml-4 mr-lg-3"></i>
+                            </div>
+                            <div class="col">
+                                <p>ADRESSE : 70 Avenue Roger Devoucoux<br>
+                                    83000 -  Toulon</p>
+                            </div>
+                        </div>
                         <br>
-                        <p><i class="fas fa-phone-alt text-white ml-4 mr-lg-3"></i> TÉLÉPHONE : +33 6 28 22 44 71</p>
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="fas fa-phone-alt text-white ml-4 mr-lg-3"></i>
+                            </div>
+                            <div class="col">
+                                <p>TÉLÉPHONE : +33 6 28 22 44 71</p>
+                            </div>
+                        </div>
                         <br>
-                        <p><i class="fas fa-envelope text-white ml-4 mr-lg-3"></i> EMAIL : contact@flaresy.fr</p>
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="fas fa-envelope text-white ml-4 mr-lg-3"></i>
+                            </div>
+                            <div class="col">
+                                <p>EMAIL : contact@flaresy.fr</p>
+                            </div>
+                        </div>
                         <br>
                         <div id="reseaux-icons" class="bottom-right">
                             <a class="link-reseau reseau-icon border-0" href="#" type="button"><i class="fab fa-2x fa-facebook-f icon-reseau" aria-hidden="true"></i></a>

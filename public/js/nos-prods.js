@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+    $('#categories_select2').select2({
+        placeholder: "Sélectionner au moins une catégorie",
+        allowClear: true
+    });
+
     var grid = $('#productions').isotope({
         itemSelector: '.production'
     });
@@ -11,7 +17,7 @@ $(document).ready(function() {
     $('#productions').isotope({ filter: '*'});
 });
 
-function filtrerCategories(categorie, element) {
+function filtrerCategoriesHome(categorie, element) {
     $('#categories a.active').removeClass('active');
     $(element).addClass('active');
 

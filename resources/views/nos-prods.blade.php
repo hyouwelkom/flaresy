@@ -14,69 +14,28 @@
             <a class="btn btn-lg btn-flaresy-bis active" href="javascript:void(0)" onclick="filtrerCategories('all', this)">
                 Tout
             </a>
-            <a class="btn btn-lg btn-flaresy-bis" href="javascript:void(0)" onclick="filtrerCategories('animation', this)">
-                Animation 2D | 3D
-            </a>
-            <a class="btn btn-lg btn-flaresy-bis" href="javascript:void(0)" onclick="filtrerCategories('drone', this)">
-                Vidéos drone | 360°
-            </a>
-            <a class="btn btn-lg btn-flaresy-bis" href="javascript:void(0)" onclick="filtrerCategories('marketing', this)">
-                Vidéos marketing
-            </a>
-            <a class="btn btn-lg btn-flaresy-bis" href="javascript:void(0)" onclick="filtrerCategories('spots', this)">
-                Spots
-            </a>
-            <a class="btn btn-lg btn-flaresy-bis" href="javascript:void(0)" onclick="filtrerCategories('evenementiels', this)">
-                Films évènementiels
-            </a>
+            @foreach($categories as $categorie)
+                <a class="btn btn-lg btn-flaresy-bis" href="javascript:void(0)" onclick="filtrerCategories('{{ $categorie->nom }}', this)">
+                    {{ $categorie->libelle }}
+                </a>
+            @endforeach
         </div>
 
         <div id="productions-prod">
 
-            <div class="production-prod animation">
-                <div class="production-layer">
-                    <div class="production-prod-img-container">
-                        <img src="{{ asset('storage/photos/slider1.jpg') }}">
-                        <p class="production-prod-txt">Animation 3D</p>
+            @foreach($productions as $production)
+                <div class="production-prod @foreach($production->categories as $categorie){{ $categorie->nom }} @endforeach">
+                    <div class="production-layer">
+                        <div class="production-prod-img-container">
+                            <img class="prod-img" src="{{ asset('storage/photos/nos-prods/'.$production->nom_img) }}">
+                            <div class="production-prod-div">
+                                <p>{{ $production->nom_projet }}</p>
+                                <p class="production-prod-client">{{ $production->nom_client }} ({{ implode(', ', $production->categories->pluck('libelle')->toArray()) }})</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="production-prod drone">
-                <div class="production-layer">
-                    <div class="production-prod-img-container">
-                        <img src="{{ asset('storage/photos/slider1.jpg') }}">
-                        <p class="production-prod-txt">Animation 3D</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="production-prod marketing">
-                <div class="production-layer">
-                    <div class="production-prod-img-container">
-                        <img src="{{ asset('storage/photos/slider1.jpg') }}">
-                        <p class="production-prod-txt">Animation 3D</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="production-prod marketing">
-                <div class="production-layer">
-                    <div class="production-prod-img-container">
-                        <img src="{{ asset('storage/photos/slider1.jpg') }}">
-                        <p class="production-prod-txt">Animation 3D</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="production-prod marketing">
-                <div class="production-layer">
-                    <div class="production-prod-img-container">
-                        <img src="{{ asset('storage/photos/slider1.jpg') }}">
-                        <p class="production-prod-txt">Animation 3D</p>
-                    </div>
-                </div>
-            </div>
+            @endforeach
 
         </div>
 

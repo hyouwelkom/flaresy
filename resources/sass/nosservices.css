@@ -1,6 +1,5 @@
 .service {
     width: 30%;
-    height: 170px;
     border: 0px solid black;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
     float: left;
@@ -9,6 +8,9 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 40px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .service-title {
@@ -20,13 +22,12 @@
 }
 
 .service-txt {
-    color: rgb(215, 215, 215);
+    color: rgb(100, 100, 100);
     margin-right: 10px;
     margin-left: 10px;
 }
 
 .img-service {
-    border-radius: 50%;
     width: 80px;
     height: 80px;
     object-fit: cover;
@@ -84,11 +85,6 @@
 
 .service-box {
     width: 400px;
-    margin-left: 40px;
-    margin-right: 40px;
-
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .service-box-img {

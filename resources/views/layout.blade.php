@@ -8,6 +8,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/nos-prods.js') }}"></script>
+    <script src="{{ asset('js/new-user.js') }}"></script>
     <script src="{{ asset('js/isotope.pkgd.min.js') }}"></script>
 </head>
 <body>
@@ -25,8 +26,8 @@
 
             <div class="col">
                 <div id="reseaux-icons">
-                    <a class="link-reseau reseau-icon border-0" href="#" type="button"><i class="fab fa-2x fa-facebook-f icon-reseau" aria-hidden="true"></i></a>
-                    <a class="link-reseau reseau-icon border-0" href="#" type="button"><i class="fab fa-2x fa-instagram icon-reseau" aria-hidden="true"></i></a>
+                    <a class="link-reseau reseau-icon border-0" href="https://www.facebook.com/flaresyagency" type="button"><i class="fab fa-2x fa-facebook-f icon-reseau" aria-hidden="true"></i></a>
+                    <a class="link-reseau reseau-icon border-0" href="https://www.instagram.com/flaresyagency/" type="button"><i class="fab fa-2x fa-instagram icon-reseau" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

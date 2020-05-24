@@ -9,6 +9,10 @@ nav {
     box-shadow: 0px 1px 20px 0px black;
 }
 
+.section {
+    min-height: calc(100vh - 190px);
+}
+
 .nav-item.active a {
     color: white;
 }

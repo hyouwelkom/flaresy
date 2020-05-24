@@ -22,6 +22,10 @@
      background-position: left top;
      transition:all 0.2s ease-in-out;
      color: white;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
  }
 
  .membre:hover .txt-membre {
@@ -33,6 +37,7 @@
      font-size: 2em;
      margin-bottom: -7px;
      padding-top: 6px;
+     text-transform: capitalize;
  }
 
 .job {

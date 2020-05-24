@@ -7,7 +7,7 @@
 </div>
 
 <div class="flaresy-undertitle">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula feugiat facilisis. Nulla dapibus ornare neque blandit aliquet. Duis non.
+    Nous donnons vie à vos projets et vous aidons à élargir le champ des possibles. N'hésitez pas à nous faire part de votre imagination !
 </div>
 
 <div id="contact" class="mb-lg-5 mt-lg-5">
