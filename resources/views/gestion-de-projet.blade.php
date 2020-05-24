@@ -24,16 +24,19 @@
             </div>
             <div class="col-6">
                 <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade" id="list-{{ Str::slug($projet->nom) }}" role="tabpanel" aria-labelledby="list-{{ Str::slug($projet->nom) }}-list">
-                        @if($projet->fichiers->count() > 0)
-                            @foreach($projet->fichiers as $fichier)
-                                <a target="_blank" href="{{ asset('storage/fichiers-client/'.Auth::user()->id.'/'.$fichier->nom_fichier) }}">{{ $fichier->nom }}</a>
-                                <br>
-                            @endforeach
-                        @else
-                            Aucun fichier pour le moment.
-                        @endif
-                    </div>
+                    @foreach(Auth::user()->projets as $projet)
+                        <div class="tab-pane fade" id="list-{{ Str::slug($projet->nom) }}" role="tabpanel" aria-labelledby="list-{{ Str::slug($projet->nom) }}-list">
+                            @if($projet->fichiers->count() > 0)
+                                @foreach($projet->fichiers as $fichier)
+                                    Allo
+                                    <a target="_blank" href="{{ asset('storage/fichiers-client/'.Auth::user()->id.'/'.$fichier->nom_fichier) }}">{{ $fichier->nom }}</a>
+                                    <br>
+                                @endforeach
+                            @else
+                                Aucun fichier pour le moment.
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>
