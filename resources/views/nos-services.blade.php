@@ -22,7 +22,7 @@
             @foreach($services as $service)
                 <div class="service-box">
                     <img src="{{ asset('storage/photos/nos-services/'.$service->img_nom) }}" class="service-box-img pb-3">
-                    <h2 class="pb-3 text-capitalize">{{ $service->nom }}</h2>
+                    <h2 class="pb-3 text-uppercase">{{ $service->nom }}</h2>
                     <p>{{ $service->descriptif }}</p>
                 </div>
             @endforeach

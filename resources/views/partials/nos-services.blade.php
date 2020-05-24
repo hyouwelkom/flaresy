@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="col-9 pl-lg-4 pt-2 pb-2">
-                <h3 class="service-title text-capitalize">{{ $service->nom }}</h3>
+                <h3 class="service-title text-uppercase">{{ $service->nom }}</h3>
                 <div class="service-txt">{{ $service->descriptif }}</div>
             </div>
         </div>
