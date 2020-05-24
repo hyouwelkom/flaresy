@@ -28,6 +28,7 @@
                         @if($projet->fichiers->count() > 0)
                             @foreach($projet->fichiers as $fichier)
                                 <a target="_blank" href="{{ asset('storage/fichiers-client/'.Auth::user()->id.'/'.$fichier->nom_fichier) }}">{{ $fichier->nom }}</a>
+                                <br>
                             @endforeach
                         @else
                             Aucun fichier pour le moment.
